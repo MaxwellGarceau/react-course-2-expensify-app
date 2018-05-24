@@ -1,9 +1,9 @@
-/*jshint ignore: start*/
+/* eslint-disable */
 import { createStore, combineReducers } from 'redux';
 import uuid from 'uuid';
 
-const addExpense = ({ 
-	description = '', 
+const addExpense = ({
+    description = '',
 	note = '', 
 	amount = 0, 
 	createdAt = 0 

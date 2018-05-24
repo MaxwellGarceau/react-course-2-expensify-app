@@ -1,4 +1,4 @@
-/*jshint ignore: start*/
+/* eslint-disable */
 import { createStore } from 'redux';
 
 const add = ({ a, b }, c) => {

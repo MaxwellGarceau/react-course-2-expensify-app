@@ -1,32 +1,31 @@
-/*jshint ignore: start*/
+/* jshint ignore: start */
 
 // const person = {
-// 	name: 'Max',
-// 	age: 26,
-// 	location: {
-// 		city: 'Nashville',
-// 		temp: 44
-// 	}
+//   name: 'Max',
+//   age: 26,
+//   location: {
+//     city: 'Nashville',
+//     temp: 44
+//   }
 // };
 
 // const {name: firstName = 'This guy', age} = person;
 
 // console.log(`${firstName} is ${age}.`);
 
-
 // const { city, temp: temperature } = person.location;
 // if (city && temperature) {
 
-// 	console.log(`Its ${temperature} in ${city}.`);
+//   console.log(`Its ${temperature} in ${city}.`);
 
 // }
 
 // const book = {
-// 	title: 'Ego is the Enemy',
-// 	author: 'Ryan Holiday',
-// 	publisher: {
-// 		name: 'Penguin'
-// 	}
+//   title: 'Ego is the Enemy',
+//   author: 'Ryan Holiday',
+//   publisher: {
+//     name: 'Penguin'
+//   }
 // };
 
 // const { name: publisherName = 'Self-Published' } = book.publisher;
@@ -47,7 +46,6 @@ const { expensive, cheap } = fenderGuitar.model;
 
 console.log(`I have a nice ${(Math.floor(Math.random() * (2)) + 1) === 1 ? expensive : cheap} guitar that has ${pickUps} pickups and is ${type}.`)
 
-
 //
 // Array Destructring
 //
@@ -60,6 +58,6 @@ console.log(`I have a nice ${(Math.floor(Math.random() * (2)) + 1) === 1 ? expen
 
 const item = ['Coffee (hot)', '$2.00', '$2.50', '$2.75'];
 
-const [coffee, , mediumPrice, largePrice] = item;
+const [coffee, smallPrice, mediumPrice, largePrice] = item;
 
 console.log(`A large ${coffee} costs ${largePrice}.`);
