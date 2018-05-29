@@ -1,7 +1,3 @@
-# Git Commands
+An app where users can create, edit, and delete expenses. Saves user data to firebase. 
 
-git init - Create a new git repo
-git status - View the changes to your project code
-git add - Add files to staging area
-git commit - Creates a new commit with files from staging area
-git log - View recent commits
+This was an educational project that was part of The Complete React Web Developer Course (with Redux). I followed along with the videos and re-created this app as part of the course.
