@@ -18,22 +18,13 @@ module.exports = (env) => {
 
   console.log('env', env);
   return {
-    entry: './src/app.js',
+    entry: ['babel-polyfill', './src/app.js'],
     output: {
       path: path.join(__dirname, 'public', 'dist'),
       filename: 'bundle.js'
     },
     module: {
       rules: [
-        // {
-        //   loader: 'eslint-loader',
-        //   // test: /\.js$/,
-        //   // exclude: /node_modules/,
-        //   options: {
-        //     emitError: false,
-        //     quiet: true
-        //   }
-        // },
         {
           loader: 'babel-loader',
           test: /\.js$/,
